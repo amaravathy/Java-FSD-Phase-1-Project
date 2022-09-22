@@ -1,0 +1,10 @@
+<h1>Hi {{ currentUser.firstName }}!</h1>
+
+<h3>Dashboard</h3>
+<ul>
+<img src="https://images.pexels.com/photos/326424/pexels-photo-326424.jpeg" class="img-fluid w-100 p-3" alt="Responsive image">
+  <li *ngFor="let user of users">
+   UserName {{ user.username }} <br>FirstName {{ user.firstName }} <br>LastName{{ user.lastName }} 
+    <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
+  </li>
+</ul>
