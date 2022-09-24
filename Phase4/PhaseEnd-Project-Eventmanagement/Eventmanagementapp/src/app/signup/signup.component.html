@@ -1,0 +1,44 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1>Event Management App</h1>
+          <h2>Register Here</h2>
+          <hr>
+        </div>
+        <form >
+          <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input formControlName="name" placeholder="Enter Name" type="email" class="form-control"
+              id="exampleInputEmail1" aria-describedby="emailHelp">
+
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email Id</label>
+            <input formControlName="email" placeholder="Enter emailid" type="email" class="form-control"
+              id="exampleInputEmail1" aria-describedby="emailHelp">
+
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Mobile Number</label>
+            <input formControlName="mobile" placeholder="Enter mobile number" type="email" class="form-control"
+              id="exampleInputEmail1" aria-describedby="emailHelp">
+
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input formControlName="password" placeholder="Enter Password" type="password" class="form-control"
+              id="exampleInputPassword1">
+          </div>
+
+          <button type="submit" class="btn btn-primary">SignUp</button>
+        </form>
+        <a routerLink="/home"> Existing User ? Click to SignUp !!</a>
+      </div>
+
+    </div>
+  </div>
+</div>
