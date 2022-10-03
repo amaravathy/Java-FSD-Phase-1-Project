@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-03T14:30:49 IST" name="Suite" finished-at="2022-10-03T14:30:58 IST" duration-ms="8966">
+    <groups>
+    </groups>
+    <test started-at="2022-10-03T14:30:49 IST" name="Test" finished-at="2022-10-03T14:30:58 IST" duration-ms="8966">
+      <class name="com.simplilearn.demo.Logintest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.simplilearn.demo.Logintest@6497b078]" started-at="2022-10-03T14:30:49 IST" name="beforeMethod" finished-at="2022-10-03T14:30:50 IST" duration-ms="1261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="facebook()[pri:0, instance:com.simplilearn.demo.Logintest@6497b078]" started-at="2022-10-03T14:30:50 IST" name="facebook" finished-at="2022-10-03T14:30:51 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.simplilearn.demo.Logintest@6497b078]" started-at="2022-10-03T14:30:51 IST" name="afterMethod" finished-at="2022-10-03T14:30:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.simplilearn.demo.Logintest -->
+      <class name="com.simplilearn.demo.Registertest">
+        <test-method signature="f()[pri:0, instance:com.simplilearn.demo.Registertest@53aad5d5]" started-at="2022-10-03T14:30:54 IST" name="f" finished-at="2022-10-03T14:30:58 IST" duration-ms="4297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.simplilearn.demo.Registertest@53aad5d5]" started-at="2022-10-03T14:30:58 IST" name="afterTest" finished-at="2022-10-03T14:30:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.simplilearn.demo.Registertest -->
+      <class name="com.simplilearn.demo.FacebookLogin">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.simplilearn.demo.FacebookLogin@41c2284a]" started-at="2022-10-03T14:30:51 IST" name="beforeMethod" finished-at="2022-10-03T14:30:52 IST" duration-ms="1015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="facebook()[pri:0, instance:com.simplilearn.demo.FacebookLogin@41c2284a]" started-at="2022-10-03T14:30:52 IST" name="facebook" finished-at="2022-10-03T14:30:54 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebook -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.simplilearn.demo.FacebookLogin@41c2284a]" started-at="2022-10-03T14:30:54 IST" name="afterMethod" finished-at="2022-10-03T14:30:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.simplilearn.demo.FacebookLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
